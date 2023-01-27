@@ -1,13 +1,3 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-	content: [],
-	theme: {
-		extend: {},
-	},
-	plugins: [],
-}
-/** @type {import('tailwindcss').Config} */
-
 const colors = require('tailwindcss/colors')
 const plugin = require('tailwindcss/plugin')
 
@@ -20,24 +10,27 @@ module.exports = {
 		'./app/components/**/*.{js,ts,jsx,tsx}',
 	],
 	theme: {
+		fontFamily: {
+			primary: 'Orbitron',
+			secondary: 'Rajdhani',
+			tertiary: 'Aldrich',
+		},
+		container: {
+			padding: {
+				DEFAULT: '15px',
+			},
+		},
+		screens: {
+			sm: '640px',
+			md: '768px',
+			lg: '960px',
+			xl: '1200px',
+		},
 		colors: {
-			accent,
-			lightAccent,
+			primary: '#0a0a0a',
+			accent: '#B809C3',
 			black: colors.black,
 			white: colors.white,
-			gray: {
-				300: '#d9dae8',
-				500: '#999AA5',
-				600: '#66676E',
-				700: '#39393f',
-				800: '#242529',
-				900: '#191B1F',
-				950: '#101215',
-			},
-			transparent: colors.transparent,
-			yellow: {
-				700: '#F5C521',
-			},
 		},
 		extend: {
 			spacing: {
