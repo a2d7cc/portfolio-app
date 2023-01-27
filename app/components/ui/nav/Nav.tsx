@@ -14,7 +14,13 @@ const Nav: FC = () => {
 				max-w-[460px] mx-auto px-5 flex items-center justify-between text-2xl text-white/50"
 				>
 					{bottomMenu.map((item) => (
-						<Link className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
+						<Link
+							to={item.to}
+							className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+							activeClass="active"
+							smooth={true}
+							spy={true}
+						>
 							{item.icon}
 						</Link>
 					))}
