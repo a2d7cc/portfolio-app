@@ -1,9 +1,9 @@
 import Meta from 'providers/meta/Meta'
 import { FC } from 'react'
 
-import Banner from '@/components/ui/banner/Banner'
-import Contact from '@/components/ui/contact/Contact'
-import Header from '@/components/ui/header/Header'
+import Banner from '@/components/screens/home/sections/banner/Banner'
+import Contact from '@/components/screens/home/sections/contact/Contact'
+import Header from '@/components/screens/home/sections/header/Header'
 import Nav from '@/components/ui/nav/Nav'
 
 import siteBg from '@/assets/images/site-bg.jpg'

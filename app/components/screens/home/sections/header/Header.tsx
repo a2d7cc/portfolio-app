@@ -3,7 +3,7 @@ import { FC } from 'react'
 
 import logo from '@/assets/images/logo.svg'
 
-import Button from '../button/Button'
+import Button from '../../../../ui/button/Button'
 
 const Header: FC = () => {
 	return (

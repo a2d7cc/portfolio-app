@@ -10,13 +10,13 @@ const Nav: FC = () => {
 			<div className="container mx-auto">
 				{/* nav inner */}
 				<div
-					className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full 
+					className="w-full bg-black/20 h-[76px] backdrop-blur-2xl rounded-full 
 				max-w-[460px] mx-auto px-5 flex items-center justify-between text-2xl text-white/50"
 				>
 					{bottomMenu.map((item) => (
 						<Link
 							to={item.to}
-							className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+							className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
 							activeClass="active"
 							smooth={true}
 							spy={true}
