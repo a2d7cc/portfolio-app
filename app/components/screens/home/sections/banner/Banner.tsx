@@ -61,7 +61,7 @@ const Banner: FC = () => {
 					</div>
 
 					{/* image */}
-					<div>
+					<div className="hidden lg:flex flex-1 max-w-[220px] lg:max-w-[380px]">
 						<img src={imgLink.src} />
 					</div>
 				</div>
