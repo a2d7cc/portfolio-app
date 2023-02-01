@@ -25,7 +25,7 @@ const Banner: FC = () => {
 							initial="hidden"
 							whileInView={'show'}
 							viewport={{ once: false, amount: 0.7 }}
-							className="text-[35px] font-bold leading-[0.8] lg:text-[85px]"
+							className="text-[65px] font-bold leading-[0.8] lg:text-[90px]"
 						>
 							ALEX <span>CHUKRII</span>
 						</motion.h1>
@@ -34,7 +34,7 @@ const Banner: FC = () => {
 							initial="hidden"
 							whileInView={'show'}
 							viewport={{ once: false, amount: 0.7 }}
-							className="mb-6 text-[26px] lg:text-[45px] font-secondary font-semibold uppercase leading-[1]"
+							className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
 						>
 							<span className="text-white mr-4">I am a </span>
 							<TypeAnimation
@@ -50,7 +50,7 @@ const Banner: FC = () => {
 							initial="hidden"
 							whileInView={'show'}
 							viewport={{ once: false, amount: 0.7 }}
-							className="mb-8 text-[12px] lg:text-[24px] max-w-lg mx-auto lg:mx-0"
+							className="mb-8  max-w-lg mx-auto lg:mx-0"
 						>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
 							corporis voluptate saepe omnis totam, cumque architecto adipisci.
