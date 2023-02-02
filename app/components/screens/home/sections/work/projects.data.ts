@@ -19,3 +19,11 @@ export const projects = [
 		imgLink: workImage3.src,
 	},
 ]
+
+export const mainProject = [
+	{
+		preTitle: 'UI/UX Design',
+		title: 'Project title',
+		imgLink: workImage1.src,
+	},
+]
