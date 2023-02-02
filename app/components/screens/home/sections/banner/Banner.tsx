@@ -6,14 +6,13 @@ import { TypeAnimation } from 'react-type-animation'
 
 import Button from '@/components/ui/button/Button'
 
-import imgLink from '@/assets/images/avatar.svg'
+import imgLink from '@/assets/images/hands.svg'
 
 import { fadeIn } from '@/utils/animate/variants'
 
 const Banner: FC = () => {
 	return (
 		<section
-			id="home"
 			className="min-h-[85vh] lg:min-h-[75vh] flex items-center"
 		>
 			<div className="container mx-auto">
@@ -27,7 +26,7 @@ const Banner: FC = () => {
 							viewport={{ once: false, amount: 0.7 }}
 							className="text-[65px] font-bold leading-[0.8] lg:text-[90px]"
 						>
-							ALEX <span>CHUKRII</span>
+							{/* ALEX <span>CHUKRII</span> */}
 						</motion.h1>
 						<motion.div
 							variants={fadeIn('up', 0.4)}
@@ -36,14 +35,17 @@ const Banner: FC = () => {
 							viewport={{ once: false, amount: 0.7 }}
 							className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
 						>
-							<span className="text-white mr-4">I am a </span>
+							<span className="text-white mr-4">
+								I am a <br />
+							</span>
 							<TypeAnimation
-								sequence={['Developer', 2000, 'Designer', 2000]}
+								sequence={['Frontend', 2000, 'Backend', 2000]}
 								speed={50}
 								className="text-accent"
 								wrapper="span"
 								repeat={Infinity}
 							/>
+							Developer
 						</motion.div>
 						<motion.p
 							variants={fadeIn('up', 0.5)}
@@ -93,7 +95,7 @@ const Banner: FC = () => {
 						variants={fadeIn('down', 0.5)}
 						initial="hidden"
 						whileInView={'show'}
-						className="hidden lg:flex flex-1 max-w-[220px] lg:max-w-[380px]"
+						className="hidden lg:flex flex-1 max-w-[220px] lg:max-w-[420px]"
 					>
 						<img src={imgLink.src} />
 					</motion.div>
