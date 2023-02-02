@@ -20,7 +20,7 @@ const Nav: FC = () => {
 							activeClass="active"
 							smooth={true}
 							spy={true}
-							offset={0}
+							offset={item.offset}
 						>
 							{item.icon}
 						</Link>
